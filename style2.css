@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    background-color: #f3f1ff;
+}
+/* header{
+    background-color: #562EFF;
+    width: 100%;
+    Height: 94px;
+    padding-bottom: 0;
+
+}
+.navbar{
+    width: 940px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0;
+    padding-bottom: 0;
+
+}
+
+.logo-name{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 0px;
+    top: 0px;
+    
+}
+.navbar .logo img{
+    Width: 40.42px;
+    Height: 51px;
+    
+}
+.logo{
+    margin-right: 10px; 
+}
+.right{
+    display: flex;
+}
+
+.right-link ul{
+    display: flex;
+    padding-left: 0px;
+    display: flex;
+    justify-content: center;
+}
+.right-link ul li{
+    list-style: none;
+
+    
+}
+.right-link>ul>li>a{
+    text-decoration: none;
+    margin: 20px;
+    position: relative;
+    top: 20px;
+    color: #fff;
+}
+.right-image img{
+    margin-right: 10px;
+    margin-top: 23px;
+    margin-bottom: 23px;
+} */
+
+header{
+    background-color: #562EFF;
+    width: 1440px;
+    height: 94px;
+}
+nav{
+    display: flex;
+    width: 83.5%;
+    /* justify-content: center; */
+   align-items: center
+}
+.nav-left{
+    display: flex;
+    position: relative;
+    left: 32px;
+    flex: 1;
+}
+.nav-left img{
+    width: 40.42px;
+    height: 51px;
+    margin: 26px 15px 17px;
+}
+.nav-left h3{
+    width: 54px;
+    height: 36px;
+    margin: 33px 0px 25px 0px;
+}
+.nav-right{
+    flex: 2;
+}
+.nav-right>ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.nav-right>ul>li{
+    list-style: none;
+}
+.nav-right>ul>li>a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 35px 36px 35px 0px;
+}
+/* top-players */
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    background-color: #fff;
+    width: 870px;
+    padding: 30px;
+}
+.top-player{
+    margin-bottom: 30px;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
+}
+.player img{
+    Width: 56px;
+    height: 56px;
+}
+.player{
+    display: flex;
+}
+
+/* top blog */
