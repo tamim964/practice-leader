@@ -14,14 +14,16 @@ header{
 }
 nav{
     display: flex;
-    width: 90%;
+    width: 89%;
     justify-content: space-around;
     align-items: center;
-    position: relative;
-    left: 0px;
+
 }
 .nav-left{
     display: flex;
+    pos
+
+
 }
 .nav-left img{
     width: 40.42px;
